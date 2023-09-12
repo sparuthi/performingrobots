@@ -9,6 +9,7 @@ Aadhar and I aimed to develop something both straightforward and imaginative. Wh
 ![Rough_sketch](https://github.com/sparuthi/performingrobots/assets/99080736/f53797e2-b9f4-4192-9639-3ab1fe0ac0b1)
 
 Date: 12th September, 2023
+
 Partner: Aadhar Wasti 
 
 
