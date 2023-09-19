@@ -44,11 +44,13 @@ We took an innovative turn by adding casters to our base, giving it mobility. We
 As we entered the coding phase, our team was filled with excitement. The challenge of making our base move and dance was thrilling. We coded algorithms to bring our vision to life, turning the code into the conductor of our mechanical dance.
 
 This is the code that we used: 
+
+```
 // Defining the pins
-const int motor1Pin1 = ;  // Connect to the input
-const int motor1Pin2 = ;  // Connect to the input
-const int motor2Pin1 = ;  // Connect to the input
-const int motor2Pin2 = ;  // Connect to the input
+const int motor1Pin1 = 2;  // Connect to the input
+const int motor1Pin2 = 3;  // Connect to the input
+const int motor2Pin1 = 4;  // Connect to the input
+const int motor2Pin2 = 5;  // Connect to the input
 
 void setup() {
   // Setting the motor control pins as OUTPUT
@@ -95,7 +97,7 @@ void loop() {
   // Delay for a few seconds
   delay(2000);
 }
-
+```
 Seeing our creation come to life was like magic. Our once-static base now moved gracefully, responding to our coded commands.
 
 This blend of mechanics and coding opened up new possibilities and exceeded our expectations. It showcased our teamwork, innovation, and determination to bring our idea to life.
