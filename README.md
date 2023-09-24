@@ -107,4 +107,110 @@ In the end, adding casters and coding for movement turned our project into a cap
 
 https://github.com/sparuthi/performingrobots/assets/99080736/e73078c1-7fce-4a69-bed7-c8547b0b66cd
 
+## Story of a robot using motions (09/25) 
+
+Creating a story using motion alone for a robot with limited capabilities like a plank with three wheels can be a creative challenge. When I look at the stage at which I am at building the robot I get reminded of NASA's Mars Curiosity Rover which inspired me to depict the following story: 
+
+Title: "The Curious Explorer"
+
+Scene 1:
+- The robot starts at one end of the room.
+- It moves forward with curiosity, exploring its surroundings.
+
+Scene 2:
+- The robot suddenly stops and appears to "look" around, changing direction as if it has found something interesting.
+
+Scene 3:
+- It moves towards an imaginary object, hesitates for a moment, and then seems to pick it up (you can simulate this with a slight tilting motion).
+
+Scene 4:
+- The robot continues its journey, now carrying the "object."
+
+Scene 5:
+- It encounters a small obstacle (a raised surface or an object in its path).
+- The robot maneuvers around the obstacle, showing determination.
+
+Scene 6:
+- The robot reaches its destination, symbolized by a marked spot on the floor.
+- It carefully places the "object" down.
+
+Scene 7:
+- With a sense of accomplishment, the robot turns around and heads back to its starting point.
+
+This story conveys the idea of a curious robot exploring its environment, discovering something interesting, overcoming obstacles, and finally achieving its mission. 
+
+Here is the code on Arduino for the story: 
+
+```
+// Defining motor control pins
+int motor1Pin1 = 2; // Motor 1 control pin 1
+int motor1Pin2 = 3; // Motor 1 control pin 2
+int motor2Pin1 = 4; // Motor 2 control pin 1
+int motor2Pin2 = 5; // Motor 2 control pin 2
+
+void setup() {
+  // Initialize motor control pins as outputs
+  pinMode(motor1Pin1, OUTPUT);
+  pinMode(motor1Pin2, OUTPUT);
+  pinMode(motor2Pin1, OUTPUT);
+  pinMode(motor2Pin2, OUTPUT);
+}
+
+void loop() {
+  // Start exploring
+  moveForward();
+  delay(1000); // Move forward for 1 second
+  
+  // Change direction
+  stopMotors();
+  delay(500); // Pause for 0.5 seconds
+  
+  // Continue exploring
+  turnRight();
+  delay(1000); // Turn right for 1 second
+  
+  stopMotors();
+  delay(500); // Pause for 0.5 seconds
+  
+  // Overcome an obstacle (simulate with motion)
+  moveForward();
+  delay(1000); // Move forward for 1 second
+  
+  // Return to starting point
+  turnAround();
+  delay(1000); // Turn around for 1 second
+}
+
+// Define motor control functions
+void moveForward() {
+  digitalWrite(motor1Pin1, HIGH);
+  digitalWrite(motor1Pin2, LOW);
+  digitalWrite(motor2Pin1, HIGH);
+  digitalWrite(motor2Pin2, LOW);
+}
+
+void turnRight() {
+  digitalWrite(motor1Pin1, LOW);
+  digitalWrite(motor1Pin2, LOW);
+  digitalWrite(motor2Pin1, HIGH);
+  digitalWrite(motor2Pin2, LOW);
+}
+
+void stopMotors() {
+  digitalWrite(motor1Pin1, LOW);
+  digitalWrite(motor1Pin2, LOW);
+  digitalWrite(motor2Pin1, LOW);
+  digitalWrite(motor2Pin2, LOW);
+}
+
+void turnAround() {
+  digitalWrite(motor1Pin1, LOW);
+  digitalWrite(motor1Pin2, HIGH);
+  digitalWrite(motor2Pin1, HIGH);
+  digitalWrite(motor2Pin2, LOW);
+}
+```
+Here is the video of the story: 
+
+
 
