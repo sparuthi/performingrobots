@@ -213,4 +213,14 @@ void turnAround() {
 Here is the video of the story: 
 
 
+## Hobby RC Remote Control (02/10) 
 
+## Music Maker Shield plays audio (04/10) 
+
+## Building a Demo Robot (09/10) 
+
+## Proposal for the play [in the document seperately] (16/10) 
+
+## Robot Design (28/10) 
+
+## Presentation of Paper 1 [in the document seperately] (28/10) 
