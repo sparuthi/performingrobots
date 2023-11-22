@@ -1,4 +1,4 @@
-![IMG_1361](https://github.com/sparuthi/performingrobots/assets/99080736/1785c0c2-86de-4e8f-8ff7-d21916572e20)# performingrobots
+
 
 Repository for "Performing Robots Fall 2023" by Professor Michael Shiloh
 
@@ -224,7 +224,8 @@ This intricate process not only unveiled the technical prowess of these componen
 
 [IMG_0925.mov.zip](https://github.com/sparuthi/performingrobots/files/13442393/IMG_0925.mov.zip)
 ![![IMG_1363](https://github.com/sparuthi/performingrobots/assets/99080736/5283de25-c42f-4c41-be8a-3d6ec64b05b3)
-Uploading IMG_1361.png…]()
+![IMG_1361](https://github.com/sparuthi/performingrobots/assets/99080736/bb0f3977-c054-4080-81ad-fb90b7f7c65e)
+
 
 Here is the code that we used to test our Hobby RC: 
 ```
