@@ -412,4 +412,87 @@ Here is our design for the robot:
 
 ## Presentation of Paper 1 [in the document seperately] (28/10) 
 
+## Building a sturdy base and adding servo motors for arms (30/11) 
+In our journey toward constructing the robot, our initial focus centered on laying the foundation by assembling the base and refining the hand mechanisms. Aadhar and I collectively decided that establishing a sturdy base was fundamental, setting the groundwork for the robot's stability and mobility. We did so by using 2 triangular wooden planks to make the body stand at right angles: 
+
+![rn_image_picker_lib_temp_60b45814-2f10-49f1-ba3b-a50b6a749411](https://github.com/sparuthi/performingrobots/assets/99080736/6a3af00b-c6f4-4f7c-9b25-c89e86419b08)
+
+Delving deeper, our progression involved devising a prototype specifically tailored for the hand motors. This pivotal step allowed us to fine-tune and optimize the functionality of the motors before integrating them into the robot's structure.
+![IMG_7366](https://github.com/sparuthi/performingrobots/assets/99080736/98a13a0d-0d36-4913-806a-29159251da83)
+
+As a culmination of our efforts, we skillfully implemented the prototype onto the wooden framework.
+![IMG_7379](https://github.com/sparuthi/performingrobots/assets/99080736/ed654db0-b891-463c-87cc-6b1cbc1a5a74)
+![IMG_7377](https://github.com/sparuthi/performingrobots/assets/99080736/1946891a-0011-49ac-9dc6-2fe41ad11f04)
+![IMG_7365](https://github.com/sparuthi/performingrobots/assets/99080736/cd5de7cb-70eb-4cb1-a844-a803a1d29bcf)
+
+The pivotal moment arrived when we successfully affixed the compact servo motors amidst the wooden components. This strategic placement ensured seamless movement and articulation for the robot's arms. It marked a significant stride in our project, laying the groundwork for further advancements in constructing a functional and agile robotic system.
+
+## Mounting the Big Servo Motors For The Upper Arm (2/11)
+
+The integration of the large servo motors played a pivotal role in anchoring the entire arm mechanism to the body structure. Our approach involved a meticulous process: we carefully drilled holes into the wooden body to accommodate the servo motors, securing them firmly in place with screws. These motors served as the mechanical backbone, providing the necessary stability and support for the entire arm assembly.
+
+Once the motors were securely fastened, we seamlessly attached the arm components, leveraging the motors' robust functionality. The precision and power of these servo motors facilitated smooth and controlled movement, ensuring optimal articulation and maneuverability of the arm.
+
+This strategic integration not only bolstered the structural integrity of our project but also enhanced the arm's functionality and performance. The successful attachment of the arm to the motors represented a crucial milestone, marking a significant step forward in the development and realization of our project's mechanical framework.
+![IMG_20231108_154703](https://github.com/sparuthi/performingrobots/assets/99080736/c9e2f394-3a0c-4cba-98ae-7219c0033311)
+
+
+## Building The Functionality For The Robot Head & Testing the Servo motors (6/11) 
+
+We ingeniously utilized a lazy susan and a small servo motor to construct a dynamic and movable head. The integration process involved attaching the lazy susan to the servo motor, which was subsequently mounted onto a wooden square—a platform to accommodate the robot's head, humorously crafted from cardboard.
+
+This amalgamation of the lazy susan and servo motor showcased its prowess in facilitating fluid and precise rotational movement. The mechanism allowed the cardboard head to pivot smoothly, demonstrating the innovative potential of seemingly mundane materials in robotics. Despite the irony of a sophisticated movement system supporting a head made from humble cardboard, this juxtaposition highlighted the creativity and adaptability inherent in our design process.
+
+The incorporation of these components not only exemplified resourcefulness but also underscored the versatility of everyday materials in engineering practical and functional solutions. This project illuminated the possibilities of repurposing and harmonizing diverse elements to achieve dynamic and controlled motion, setting the stage for further exploration and experimentation in our robotics endeavors.
+
+![rn_image_picker_lib_temp_cb75a27c-24b1-4073-b007-bc6a989bfe0c](https://github.com/sparuthi/performingrobots/assets/99080736/19ab291c-a92b-474e-91df-e0566b15844d)
+![rn_image_picker_lib_temp_bfe237f0-8053-4565-a56b-ae5aed6ebf94](https://github.com/sparuthi/performingrobots/assets/99080736/20eb6e19-d3ff-418d-8745-de68b4af153d)
+
+We then, tested all our servo motors: 
+
+https://github.com/sparuthi/performingrobots/assets/99080736/2ceca80d-b8fc-4d23-bb0e-3e61f6602e11
+https://github.com/sparuthi/performingrobots/assets/99080736/a6f9ffe7-f108-4cee-8c27-01a00cdf3676
+
+
+##  Assembling the body & Attaching the Arduino Mega and Speaker  (8/11)
+
+In our pursuit of constructing the robot, our initial choice of a wooden plank as the base revealed its limitations. Despite our expectations of its sturdiness, it became apparent that it couldn't effectively support the entirety of the robot's weight. Recognizing this setback prompted us to consider an alternative approach using L-brackets.
+
+Implementing the L-brackets proved to be a transformative solution. By securely attaching the head and sides of the robot to this new base, we managed to distribute the weight more evenly, ensuring enhanced stability and support. This adjustment not only resolved the structural issue but also facilitated a more robust foundation for the robot's assembly.
+
+Additionally, we strategically affixed the Arduino Mega and Speaker to the sides of the robot's body, optimizing space utilization and ensuring a cohesive integration of components. This thoughtful arrangement not only addressed the weight distribution challenge but also streamlined the functionality of the robot's build.
+![IMG_7419](https://github.com/sparuthi/performingrobots/assets/99080736/986ffe58-6267-4cb9-93c6-43b52cff64c4)
+
+
+## Soldering the Neopixels for the Head (15/11)
+
+Building the robot was an exhilarating journey, yet personally, the most challenging aspect proved to be soldering the wires together. Despite my dedication, the limited practice led to frequent wire breakage, necessitating repetitive re-soldering attempts. It became a formidable obstacle, demanding precision and patience beyond my initial expectations.
+
+However, with the invaluable guidance and expertise of Professor Shiloh, a turning point emerged. Collaborating closely, we meticulously soldered the neopixel in a 4x4 configuration, marking a pivotal achievement in crafting the interactive face of the robot. This success illuminated the significance of mentorship and teamwork in overcoming daunting technical hurdles.
+
+![IMG_7393](https://github.com/sparuthi/performingrobots/assets/99080736/b0eea5bd-82ae-4a9b-a66e-2ae706361a1c)
+![IMG_7409](https://github.com/sparuthi/performingrobots/assets/99080736/ce5389ca-8f40-4e6d-bc1d-83581b78e667)
+
+The process, albeit arduous, offered invaluable lessons in perseverance and the profound impact of expert guidance. Through persistent effort and collaborative support, what initially seemed insurmountable transformed into a triumph, marking a significant milestone in the robot-building journey.
+
+![IMG_7414](https://github.com/sparuthi/performingrobots/assets/99080736/c3f0a420-1e0f-4462-a2be-b8ab6ebe9be0)
+![IMG_7415](https://github.com/sparuthi/performingrobots/assets/99080736/8299f724-28a9-4486-b887-0644602d5355)
+
+## Working on the Transmitter to control the robot (22/11)
+
+We endeavored to utilize a transmitter to prompt our robot to display various facial expressions. Initially, we encountered a setback as the robot failed to interpret the signals from the transmitter. After thorough investigation, we uncovered a dual issue inhibiting its functionality: a faulty shield and an elusive bug in the code.
+
+The initial frustration transformed into a collaborative problem-solving endeavor. We meticulously inspected the components, diagnosing the fault in the shield that disrupted the signal transmission. Simultaneously, we combed through the code, meticulously identifying and rectifying the elusive bug that hindered the robot's responsiveness.
+
+Our perseverance and collaborative efforts bore fruit when the transmitter successfully communicated with the robot, empowering us to command a spectrum of facial expressions. This experience underscored the significance of systematic troubleshooting and collaborative problem-solving in overcoming technological hurdles, ultimately leading to a successful execution of our project.
+
+Here is the video of the robot changing its facial features through the transmitter: 
+
+https://github.com/sparuthi/performingrobots/assets/99080736/c5b40a2e-f544-47ce-b144-14ef66040b85
+
+
+
+
+
+
 
