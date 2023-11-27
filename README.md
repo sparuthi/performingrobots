@@ -478,20 +478,23 @@ The process, albeit arduous, offered invaluable lessons in perseverance and the 
 ![IMG_7414](https://github.com/sparuthi/performingrobots/assets/99080736/c3f0a420-1e0f-4462-a2be-b8ab6ebe9be0)
 ![IMG_7415](https://github.com/sparuthi/performingrobots/assets/99080736/8299f724-28a9-4486-b887-0644602d5355)
 
-## Working on the Transmitter to control the robot (22/11)
+## Working on the Transmitter to control the robot facial expressions (22/11)
 
 We endeavored to utilize a transmitter to prompt our robot to display various facial expressions. Initially, we encountered a setback as the robot failed to interpret the signals from the transmitter. After thorough investigation, we uncovered a dual issue inhibiting its functionality: a faulty shield and an elusive bug in the code.
 
 The initial frustration transformed into a collaborative problem-solving endeavor. We meticulously inspected the components, diagnosing the fault in the shield that disrupted the signal transmission. Simultaneously, we combed through the code, meticulously identifying and rectifying the elusive bug that hindered the robot's responsiveness.
 
-Our perseverance and collaborative efforts bore fruit when the transmitter successfully communicated with the robot, empowering us to command a spectrum of facial expressions. This experience underscored the significance of systematic troubleshooting and collaborative problem-solving in overcoming technological hurdles, ultimately leading to a successful execution of our project.
-
+Our perseverance and collaborative efforts bore fruit when the transmitter successfully communicated with the robot, empowering us to command a spectrum of facial expressions. 
 Here is the video of the robot changing its facial features through the transmitter: 
 
 https://github.com/sparuthi/performingrobots/assets/99080736/c5b40a2e-f544-47ce-b144-14ef66040b85
 
+## Working on the Transmitter to control the robot arms (27/11)
 
+Today’s progress in our Arduino project was significant. We delved into the Sweep example within the Servo library to expand our understanding of the robot arm's range of motion. Through this exploration, we successfully mapped out the entire area in which the arms could move. Once we comprehended this scope, we proceeded to adjust the code, aligning it with the defined movement parameters. Additionally, we made necessary updates to the transmitter, enabling it to precisely control and manipulate the robot arm's motion. This development marks a crucial step forward in our endeavor to fine-tune the arm's capabilities and responsiveness.
 
+Here is a video of the robot raising its arms on recieivng the signal from the transmitter:
+https://github.com/sparuthi/performingrobots/assets/99080736/57609146-fd1f-4204-be42-eb81c76dbed8
 
 
 
