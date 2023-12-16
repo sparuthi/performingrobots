@@ -496,6 +496,12 @@ Today’s progress in our Arduino project was significant. We delved into the Sw
 Here is a video of the robot raising its arms on recieivng the signal from the transmitter:
 https://github.com/sparuthi/performingrobots/assets/99080736/57609146-fd1f-4204-be42-eb81c76dbed8
 
+## Painting and downloading the dialogues (3/12) 
+ After meticulously completing the painting of the robot body, we seamlessly integrated the necessary dialogues into an SD card. This card found its place within the music maker shield, culminating in a harmonious fusion of aesthetics and functionality for our creation. Meet Norman! Our Robo-corp (corporate robot), who works day and night assisting other. Catch him on the show, Robot Island on the 15th December, 2023 in the Arts Center at NYUAD:) 
+
+ ![IMG_2443](https://github.com/sparuthi/performingrobots/assets/99080736/4af18ff3-29be-4220-91a8-086dc5bb67f1)
+
+
 
 
 
